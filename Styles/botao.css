@@ -92,13 +92,13 @@ button.botao__flutuante-item span{
 }
 
 button.botao__flutuante-item span.local{
-    background-image: url('Imagens/pin2.svg');
+    background-image: url('Imagens/pin.svg');
     background-position: center center; 
     background-repeat: no-repeat;
 }
   
 button.botao__flutuante-item span.remoto{
-    background-image: url('Imagens/Camera2.svg');
+    background-image: url('Imagens/Camera.svg');
     background-position: center center; 
     background-repeat: no-repeat;
 }
