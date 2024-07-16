@@ -1,0 +1,70 @@
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    border-radius: 12px 12px 0 0;
+}
+
+.rodape__div {
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.rodape__icones {
+    width: 24px;
+    height: 20px;
+    color: var(--cor-cinza2); 
+}
+
+.rodape__texto {
+    font-size: 12px;
+    color: var(--cor-cinza);
+    font-weight: 400;
+}
+
+.rodape__botao {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1485px) {
+    .rodape {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 200px; 
+        background-color: var(--cor-branco);
+        display: inline;
+        flex-direction: column;
+        gap: 1em;
+        border-radius: 0 12px 12px 0;
+        padding: 1.5em 0; 
+    }
+    
+    .rodape__div {
+        padding: 0.5rem 0 1rem 0;
+        width: 100%;  
+    } 
+
+    .rodape__div:hover * {
+        color: var(--cor-azul);
+    }
+
+    .rodape__texto {
+        font-size: 1rem;
+        color: var(--cor-cinza2);
+        font-weight: 500;
+    }
+    .rodape__botao {
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 1.5em;
+        width: 100%;
+        gap: 1em;
+    }
+}

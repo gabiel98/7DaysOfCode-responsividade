@@ -1,0 +1,116 @@
+.modal__checkbox {
+    display: none;
+}
+
+.modal {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30em;
+}
+
+.modal__botao {
+    background-color: var(--cor-azul);
+    border: 1px solid var(--cor-cinza2);
+    border-radius: 1em;
+    padding: 1em;
+    color: var(--cor-branco);
+    position: fixed;
+    bottom: 1.25rem; 
+    left: 1.25rem;
+    cursor: pointer;
+}
+
+.modal__1 {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal__conteudo {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 1.25rem;
+    border: 1px solid #888;
+    width: 60%; 
+    border-radius: 1em;
+    position: relative;
+}
+
+.modal__conteudo-1 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1em;
+    justify-content: center;
+    padding-top: 2em;
+    border-radius: 3em;
+}
+
+.modal__conteudo--grupo {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    gap: 0.5em;
+    font-weight: 500;
+    color: var(--cor-cinza2);
+}
+.modal__conteudo--grupo input,
+.modal__conteudo--grupo select,
+.modal__conteudo--grupo textarea {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+    color: var(--cor-cinza2);
+
+}
+
+.modal__salvar {
+    display: fixed;
+    background-color: var(--cor-azul);
+    width: 20%;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    color: var(--cor-branco);
+    position: absolute;
+    bottom: 1.25rem; 
+    right: 1.25rem; 
+    cursor: pointer;
+}
+
+
+.modal__fechar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal__fechar:hover,
+.modal__fechar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modalToggle:checked ~ .modal__1 {
+    display: block;
+}
+
+@media screen and (min-width: 1485px) {
+    .modal {
+        display: flex;
+
+    }
+}
