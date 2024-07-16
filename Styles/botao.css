@@ -4,7 +4,6 @@
     position: fixed;
     right: 16px;
     bottom: 70px;
-  
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -94,10 +93,14 @@ button.botao__flutuante-item span{
 
 button.botao__flutuante-item span.local{
     background-image: url('Imagens/pin2.svg');
+    background-position: center center; 
+    background-repeat: no-repeat;
 }
   
 button.botao__flutuante-item span.remoto{
     background-image: url('Imagens/Camera2.svg');
+    background-position: center center; 
+    background-repeat: no-repeat;
 }
 
 
