@@ -17,7 +17,7 @@ button.botao__flutuante-cadastro span{
     position: absolute;
     width: 16px;
     height: 16px;
-    background-image: url('/Imagens/maisicone.svg');
+    background-image: url('Imagens/maisicone.svg');
     background-position: center;
     background-repeat: no-repeat;
     top: 50%;
@@ -93,11 +93,11 @@ button.botao__flutuante-item span{
 }
 
 button.botao__flutuante-item span.local{
-    background-image: url('/Imagens/pin2.svg');
+    background-image: url('Imagens/pin2.svg');
 }
   
 button.botao__flutuante-item span.remoto{
-    background-image: url('/Imagens/Camera2.svg');
+    background-image: url('Imagens/Camera2.svg');
 }
 
 
