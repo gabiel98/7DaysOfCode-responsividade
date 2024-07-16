@@ -1,7 +1,7 @@
 @import url("Styles/cabecalho.css");
 @import url("Styles/lista.css");
 @import url("Styles/rodape.css");
-@import url("/Styles/botao.css");
+@import url("Styles/botao.css");
 @import url("Styles/modal.css");
 * {
     margin: 0;
